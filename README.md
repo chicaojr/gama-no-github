@@ -1,0 +1,1 @@
+Este curso está me ensinando de uma forma diferenciada, comparada à outros que já fiz com o mesmo tema, e isto está me fazendo entender melhor como funciona o desenvolvimento na prática.
