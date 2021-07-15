@@ -1,10 +1,15 @@
 //console.log('*** MEDIDOR DE IMC E CONSUMO DE AGUA MÍNIMO ***\n\n')
 
-imc = function (altur, pezo) {
+//var altur = prompt("Informe sua altura: " );
+//var pezo = prompt("Informe seu peso: " );
+
+function imc () {
+  var altur = document.getElementById('altur').value;
+  var pezo = document.getElementById('pezo').value;
+
   total = pezo / (altur * altur);
   resultado = total.toFixed(2);
   agua = (35 * pezo) / 1000;
-
 
   if (resultado < 18.5) {
     return 'Seu IMC é: ' + resultado + ".\nVocê está abaixo do peso.\nE você deve consumir diariamente ao menos " + agua + "0 litros de água.\n\n";
@@ -26,9 +31,11 @@ imc = function (altur, pezo) {
   }
 }
 
-var altur=prompt("Insira sua altura: ");
-var pezo=prompt("Insira seu peso: ");
+//document.write(imc);
 
-document.write(imc(altur, pezo))
+//var altur=prompt("Insira sua altura: ");
+//var pezo=prompt("Insira seu peso: ");
+
+//document.write(imc(altur, pezo))
 //console.log(imc(altur, pezo))
-//console.log(imc(1.70,80))
+console.log(imc())
