@@ -35,7 +35,7 @@ else if (resultado>=25 && resultado<=29.9)
 {
 cout<<"Seu IMC é: "<<resultado<<".\nVocê está levemente acima do peso.\nE você deve consumir diariamente ao menos "<<agua<<"0 litros de água.\n\n";
 }
-else if (resultado>=25 && resultado<=34.9)
+else if (resultado>=30 && resultado<=34.9)
 {
 cout<<"Seu IMC é: "<<resultado<<"./nVocê está com Obesidade Grau I. DEVE SE CUIDAR!/nE você deve consumir diariamente ao menos "<< agua<<"0 litros de água.\n\n";
 }
